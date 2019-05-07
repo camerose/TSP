@@ -12,8 +12,6 @@ import java.util.ArrayList;
 public class Main {
 
     private static int num_cities;
-    private static int map_height = 9;
-    private static int map_width = 9;
     private static City[] cityArray = new City[5];
 
     /**
@@ -75,6 +73,8 @@ public class Main {
      */
     private static void printMap(City[] cityArray) {
         System.out.println(num_cities + " cities to print on map");
+        int map_height = 9;
+        int map_width = 9;
         System.out.println("Map will be " + (map_height + 1) + " units high and " + (map_width + 1) + " units wide");
         String buffer = "|\t";
 
